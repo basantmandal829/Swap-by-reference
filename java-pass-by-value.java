@@ -20,8 +20,6 @@ public class Pass {
 
 
 /* result 
-
 int i : 10
 int j : 20
-
 */
