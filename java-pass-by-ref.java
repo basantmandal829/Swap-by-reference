@@ -15,7 +15,7 @@ public class Pass {
 		Ball b1 = new Ball("blue");
 		Ball b2 = new Ball("red");
 		
-		tricky(b1,b2);
+		tricky(b1,b2); // accessing object --> work, but swaping --> doesn't work.
 		
 		System.out.println("b1 : " + b1); // #00b1 - green. 
 		System.out.println("b2 : " + b2); // #00b2 - red.
