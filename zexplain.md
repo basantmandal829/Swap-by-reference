@@ -10,9 +10,9 @@ color will be changed. because this copied reference still pointing to same obje
     
 but 
 swap won't work. because they swap copied references each other. not original one.
-
-#00a1 : red ball. 
-#00a2 : green ball
+after swap.
+#00a1 --> red ball. 
+#00a2 --> green ball
 
 but still. 
 #00b1 : green ball
