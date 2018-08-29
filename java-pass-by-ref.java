@@ -4,13 +4,15 @@ public class Pass {
 		
 		/* 	
 			let's assume blue ball's location is #00b1 , red ball's location is #00b2.
-			then argument b1's location would be #00a1, b2 would be #00a2. 
+			
+			Java method's argument will copy the references coming in, and then locate it to NEW postion.
+			so, Argument b1's location would be #00a1, b2 would be #00a2. 
 			#00a1 pointing to blue ball. 
 			#00a2 pointing to red ball.
 		*/
 
 		b1.setColor("green"); 
-		// this will work. because Method Argument will copy the reference, and that copied reference still pointing to same object.
+		// this will work. because this copied reference still pointing to same object which is blue ball.
 		// #00a1(#00b1)'s color changed - green. 
 		
 		Ball temp = b1;
