@@ -2,11 +2,12 @@ public class Pass {
 	
 	public static void tricky(Ball b1, Ball b2) {
 
-		b1.setColor("green");
+		b1.setColor("green"); // this will work. because Method Argument will copy the reference, and that copied reference still pointing to same object.
 		
 		Ball temp = b1;
 		b1 = b2;
-		b2 = temp;
+		b2 = temp; // this won't work. because they swap copied reference. 
+	
 	}
 	
 	public static void main(String[] args) {

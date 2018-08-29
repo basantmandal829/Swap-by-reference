@@ -3,7 +3,7 @@ public class Pass {
 	public static void badSwap(int var1, int var2) {
 		int temp = var1;
 		var1 = var2;
-		var2 = temp;
+		var2 = temp; // this won't work. because they swap copied value. 
 	}
 	
 	public static void main(String[] args) {
