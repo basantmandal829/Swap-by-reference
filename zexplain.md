@@ -1,3 +1,9 @@
+I think a lot of the confusion stems from the verbiage. Expressions like, “pass by value” and “pass by reference” lead people to think we are, “passing the value” and “passing the reference”, respectively. It’s clearer to simply say, “we are not passing the value or the reference, we are passing a NEW reference to the same value.”
+
+
+
+
+
 ## let's assume blue ball's location is #00b1 , red ball's location is #00b2.
 			
 Java method's argument will copy the references coming in, and then locate it to NEW postion.
